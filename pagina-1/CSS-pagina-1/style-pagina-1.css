@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400&display=swap");
+
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  max-width: 767px;
+  min-width: 370px;
+  overflow-x: hidden;
+  animation-name: back-ground-body;
+  background-image: linear-gradient(45deg, rgb(248, 66, 66)  , black 10%, rgb(240,2,54));
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+  background-size: 500vh 1600px;
+  animation-direction: alternate;
+
+}
+
+@keyframes back-ground-body{
+      1%{background-position-x: 0%;}
+      100%{
+        background-position-x: 100%;
+      }
+}
+
+.container-navbar {
+  background-color: rgb(249, 65, 65);
+  height: 90px;
+  display: flex;
+  box-shadow: 0 0px 20px black,
+  inset -10px -10px 40px -16px rgb(240, 2, 54),
+   0px 10px 70px -5px rgb(240, 2, 54);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.titulo-header-nome {
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+
+ul li a {
+  color: white;
+  padding: 20px;
+  min-width: 276px;
+  max-width: 767px;
+}
+
+.bxs-home {
+  font-size: 20px;
+}
+
+.container-header {
+  max-width: 767px;
+  min-width: 370px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.img-perfil {
+  max-width: 100%;
+  padding: 49px 10px;
+}
+
+.img-header-perfil {
+  width: 300px;
+  display: flex;
+  box-shadow: 0 0 30px 0 rgb(240, 2, 54);
+  border: 3px solid white;
+  border-radius: 50%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.star-header{
+        display: flex;
+        justify-content: center;
+        color: yellow;
+        filter: drop-shadow(0 0 3px yellow);
+        padding-top: 30px;
+}
+
+.star-header .bxs-star{
+        padding: 0 4px;
+}
+
+.text-previa-perfil{
+        padding: 0 40px;
+        letter-spacing: 3px;
+        line-height: 27px;
+        text-align: left;
+        font-size: 16px;
+        color: #fff;
+        filter: drop-shadow(0 0 5px white);
+}
