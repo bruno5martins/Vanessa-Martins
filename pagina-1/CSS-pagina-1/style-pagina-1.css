@@ -16,11 +16,12 @@ body {
   min-width: 370px;
   overflow-x: hidden;
   animation-name: back-ground-body;
-  background-image: linear-gradient(45deg, rgb(248, 66, 66)  , black 10%, rgb(240,2,54));
+  background-image: linear-gradient(45deg, rgb(248, 66, 66)  , black 30%, rgb(240,2,54));
   animation-iteration-count: infinite;
   animation-duration: 7s;
-  background-size: 500vh 1600px;
+  background-size: 1000vh 1600vh;
   animation-direction: alternate;
+  background-repeat: no-repeat;
 
 }
 
@@ -82,6 +83,17 @@ ul li a {
 .img-perfil {
   max-width: 100%;
   padding: 49px 10px;
+}
+
+.img-perfil::before{
+  content: 'site em desenvolvimento';
+  position: absolute;
+  left: 67px;
+  transform: translateY(120px);
+  color: white;
+  background-color: black;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 .img-header-perfil {
