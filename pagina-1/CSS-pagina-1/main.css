@@ -33,7 +33,8 @@ p{
         border-radius: 15px;
         transition-duration: 0.4s;
         box-shadow: 10px 10px 20px -5px black,
-        inset 10px 10px 40px -25px red;
+        inset 10px 10px 60px -45px red;
+        margin: 0 30px;
 }
 
 .media-elemento:hover{
@@ -68,4 +69,14 @@ p{
         color: yellow;
         font-size: 10px;
         transform: translateY(10px);
+}
+
+.container-avon{
+        display: flex;
+        flex-direction: column;
+}
+
+.avon-titulo{
+        display: flex;
+        justify-content: center;
 }
