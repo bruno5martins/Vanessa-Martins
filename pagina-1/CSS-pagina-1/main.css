@@ -1,13 +1,10 @@
 .foto-produto{
         width:160px;
         border-radius: 14px;
-        box-shadow: 10px 10px 20px -5px black;
+        box-shadow: -10px 10px 20px -18px black;
 }
 
-p{
-        color: white;
-        flex-wrap: wrap;
-}
+
 
 .media-scroller{
         display: grid;
@@ -27,7 +24,7 @@ p{
 }
 
 .media-elemento{
-        background-color: black;
+        background-color: #f1f1f1;
         padding: 30px;
         width: 120px;
         border-radius: 15px;
@@ -44,9 +41,8 @@ p{
 
 .quero{
         background-color: rgb(249, 65, 65);
-        box-shadow: 0 0px 20px black,
-  inset -10px -10px 40px -16px rgb(240, 2, 54),
-   0px 0px 20px -5px rgb(240, 2, 54);
+        box-shadow:
+  inset -10px -10px 40px -16px rgb(240, 2, 54);
         border-radius: 4px;
         align-items: center;
         justify-content: center;
@@ -61,7 +57,7 @@ p{
 }
 
 .text-produto{
-        color: rgb(255,255,255, 0.5);
+        color: rgb(0,0,0, 0.7);
         font-size: 11px;
 }
 
@@ -69,6 +65,7 @@ p{
         color: yellow;
         font-size: 10px;
         transform: translateY(10px);
+        filter: drop-shadow(0 0 4px black);
 }
 
 .container-avon{
@@ -79,4 +76,8 @@ p{
 .avon-titulo{
         display: flex;
         justify-content: center;
+}
+
+.text-valor p{
+        color: balck;
 }
